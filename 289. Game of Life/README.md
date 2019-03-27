@@ -42,9 +42,12 @@ Condition3: dead to live;
 
 We can see that those 4 conditions % 2 can get what we want.
 
-Condition0: 0(dead) % 2 = 0(dead).
-Condition1: 1(live) % 2 = 1(live).
-Condition2: 2(live) % 2 = 0(dead).
-Condition3: 3(dead) % 2 = 1(live).
+Condition0: 0(dead) % 2 = 0(dead)
+
+Condition1: 1(live) % 2 = 1(live)
+
+Condition2: 2(live) % 2 = 0(dead)
+
+Condition3: 3(dead) % 2 = 1(live)
 
 All we need to do is when we count the matrix, we count condition1 and condition2 into live cells. 
