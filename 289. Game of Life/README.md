@@ -31,13 +31,13 @@ Example:
 Solution
 ==
 It's easy to make a new matrix to save the original one or create new one, but what if we want to do the algorithm in-place? We can create 4 conditions like followings: 
-condition0: dead to dead;
-condition1: live to live;
-condition2: live to dead;
-condition3: dead to live;
-we can see that those 4 conditions % 2 can get what we want: 
-condition0: 0(dead) % 2 = 0(dead)
-condition1: 1(live) % 2 = 1(live)
-condition2: 2(live) % 2 = 0(dead)
-condition3: 3(dead) % 2 = 1(live)
-all we need to do is when we count the matrix, we count condition1 and condition2 into live cells. 
+Condition0: dead to dead;
+Condition1: live to live;
+Condition2: live to dead;
+Condition3: dead to live;
+We can see that those 4 conditions % 2 can get what we want: 
+Condition0: 0(dead) % 2 = 0(dead)
+Condition1: 1(live) % 2 = 1(live)
+Condition2: 2(live) % 2 = 0(dead)
+Condition3: 3(dead) % 2 = 1(live)
+All we need to do is when we count the matrix, we count condition1 and condition2 into live cells. 
