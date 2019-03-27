@@ -32,10 +32,13 @@ Solution
 ==
 It's easy to make a new matrix to save the original one or create new one, but what if we want to do the algorithm in-place? We can create 4 conditions like followings.
 
-Condition0: dead to dead;.
-Condition1: live to live;.
-Condition2: live to dead;.
-Condition3: dead to live;.
+Condition0: dead to dead;
+
+Condition1: live to live;
+
+Condition2: live to dead;
+
+Condition3: dead to live;
 
 We can see that those 4 conditions % 2 can get what we want.
 
